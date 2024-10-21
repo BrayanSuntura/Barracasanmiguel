@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-item {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact-item img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.back-to-home {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+button {
+    padding: 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.back-to-home {
+    display: inline-block;
+    width: 220px;
+    margin: 20px auto;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, #0b3d91, #001f54); /* Azul marino oscuro */
+    border: 3px solid #0bda51;
+    border-radius: 50px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), inset 0px 0px 10px rgba(255, 255, 255, 0.3);
+    transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease, color 0.4s ease;
+}
+
+.back-to-home:hover {
+    background: linear-gradient(45deg, #003366, #001033); /* Variación más clara en el hover */
+    color: #f0f0f0;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.4), inset 0px 0px 15px rgba(255, 255, 255, 0.5);
+    }

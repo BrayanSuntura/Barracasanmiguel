@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-content h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #777;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info span {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.contact-info a.whatsapp {
+    color: #25D366;
+    font-size: 24px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.contact-info a.send-message {
+    background-color: #d1b76f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
+p {
+    margin-bottom: 10px;
+}      
+      
